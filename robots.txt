@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Sitemap: https://ietfeiheh2016.github.io/elite-dental-clinic/sitemap.xml
+
+# Elite Dental Clinic
+# Professional luxury dental services
