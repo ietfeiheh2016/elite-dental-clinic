@@ -27,7 +27,26 @@
     <!-- Favicon for professional appearance -->
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🦷%3C/text%3E%3C/svg%3E">
     <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🦷%3C/text%3E%3C/svg%3E">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <!-- 📱 ENHANCED MOBILE META TAGS -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Elite Dental">
+    <meta name="application-name" content="Elite Dental">
+    <meta name="msapplication-TileColor" content="#ffd700">
+    <meta name="msapplication-TileImage" content="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🦷%3C/text%3E%3C/svg%3E">
+    <meta name="theme-color" content="#ffd700">
+    
+    <!-- Mobile touch icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🦷%3C/text%3E%3C/svg%3E">
+    <link rel="icon" type="image/png" sizes="32x32" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🦷%3C/text%3E%3C/svg%3E">
+    <link rel="icon" type="image/png" sizes="16x16" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🦷%3C/text%3E%3C/svg%3E">
+    
+    <!-- Mobile performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="https://raw.githubusercontent.com" crossorigin>
+    <link rel="dns-prefetch" href="//wa.me">
     <title>🦷✨ مركز النخبة الملكي لطب الأسنان | أفخم مركز أسنان في الشرق الأوسط</title>
     <meta name="description" content="أفخم وأحدث مركز لطب الأسنان في الشرق الأوسط مع تقنيات الذكاء الاصطناعي والليزر المتطور">
     
@@ -645,7 +664,360 @@
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
         }
-    </style>
+    
+        
+        /* 📱 ENHANCED MOBILE OPTIMIZATIONS */
+        @media (max-width: 768px) {
+            /* Mobile-first typography */
+            .hero-title { 
+                font-size: 2.2rem !important; 
+                line-height: 1.1 !important;
+                margin-bottom: 20px !important;
+                text-align: center !important;
+            }
+            
+            .hero-subtitle { 
+                font-size: 1.1rem !important; 
+                line-height: 1.4 !important;
+                margin-bottom: 30px !important;
+                padding: 0 15px !important;
+            }
+            
+            .section-title { 
+                font-size: 2rem !important; 
+                margin-bottom: 40px !important;
+                text-align: center !important;
+            }
+            
+            /* Mobile navigation */
+            .navbar { 
+                padding: 10px 15px !important; 
+                backdrop-filter: blur(15px) !important;
+            }
+            
+            .logo { 
+                font-size: 1.5rem !important; 
+            }
+            
+            .nav-links { 
+                display: none !important; 
+            }
+            
+            /* Mobile hero section */
+            .hero { 
+                height: 100vh !important;
+                padding: 20px 15px !important;
+                background-attachment: scroll !important;
+            }
+            
+            .hero-content { 
+                padding: 0 15px !important; 
+                max-width: 100% !important;
+            }
+            
+            /* Mobile buttons */
+            .hero-buttons { 
+                flex-direction: column !important; 
+                align-items: center !important;
+                gap: 15px !important;
+                margin-top: 30px !important;
+            }
+            
+            .cta-button { 
+                width: 90% !important;
+                max-width: 300px !important;
+                padding: 18px 25px !important; 
+                font-size: 1.1rem !important;
+                text-align: center !important;
+                border-radius: 25px !important;
+            }
+            
+            /* Mobile services */
+            .services { 
+                padding: 60px 15px !important; 
+            }
+            
+            .services-grid { 
+                grid-template-columns: 1fr !important; 
+                gap: 25px !important;
+            }
+            
+            .service-card { 
+                padding: 25px 20px !important; 
+                margin: 0 !important;
+            }
+            
+            .service-icon { 
+                font-size: 3rem !important; 
+                margin-bottom: 15px !important;
+            }
+            
+            .service-title { 
+                font-size: 1.4rem !important; 
+                margin-bottom: 15px !important;
+            }
+            
+            .service-desc { 
+                font-size: 1rem !important; 
+                line-height: 1.5 !important;
+            }
+            
+            .service-price { 
+                font-size: 1.6rem !important; 
+            }
+            
+            /* Mobile pricing */
+            .pricing { 
+                padding: 60px 15px !important; 
+            }
+            
+            .pricing-grid { 
+                grid-template-columns: 1fr !important; 
+                gap: 25px !important;
+            }
+            
+            .pricing-card { 
+                padding: 30px 20px !important; 
+                margin: 0 !important;
+            }
+            
+            .pricing-card.featured { 
+                transform: none !important; 
+                margin: 0 !important;
+            }
+            
+            .package-name { 
+                font-size: 1.6rem !important; 
+            }
+            
+            .package-price { 
+                font-size: 2.5rem !important; 
+            }
+            
+            .package-features { 
+                font-size: 1rem !important; 
+                text-align: right !important;
+            }
+            
+            .package-features li { 
+                padding: 8px 0 !important; 
+                font-size: 0.95rem !important;
+            }
+            
+            /* Mobile gallery */
+            .gallery { 
+                padding: 60px 15px !important; 
+            }
+            
+            .gallery-grid { 
+                grid-template-columns: 1fr !important; 
+                gap: 20px !important;
+            }
+            
+            .gallery-item { 
+                aspect-ratio: 16/9 !important;
+                border-radius: 15px !important;
+            }
+            
+            .gallery-content { 
+                padding: 15px !important; 
+                font-size: 1rem !important;
+            }
+            
+            .gallery-content h4 { 
+                font-size: 1.2rem !important; 
+                margin-bottom: 5px !important;
+            }
+            
+            /* Mobile website offer */
+            .website-offer { 
+                padding: 60px 15px !important; 
+            }
+            
+            .website-offer > div { 
+                max-width: 100% !important; 
+                padding: 0 !important;
+            }
+            
+            .website-offer > div > div { 
+                padding: 40px 20px !important; 
+                margin: 30px 0 !important;
+            }
+            
+            /* Mobile testimonials */
+            .testimonials { 
+                padding: 60px 15px !important; 
+            }
+            
+            .testimonials-grid { 
+                grid-template-columns: 1fr !important; 
+                gap: 25px !important;
+            }
+            
+            .testimonial-card { 
+                padding: 25px 20px !important; 
+            }
+            
+            .testimonial-text { 
+                font-size: 1rem !important; 
+                line-height: 1.5 !important;
+            }
+            
+            /* Mobile contact */
+            .contact { 
+                padding: 60px 15px !important; 
+            }
+            
+            .contact-content { 
+                max-width: 100% !important; 
+            }
+            
+            .contact-content > div { 
+                grid-template-columns: 1fr !important; 
+                gap: 30px !important;
+            }
+            
+            .contact-content > div > div { 
+                padding: 25px 20px !important; 
+            }
+            
+            .contact-buttons { 
+                flex-direction: column !important; 
+                align-items: center !important;
+                gap: 15px !important;
+            }
+            
+            .whatsapp-btn, .phone-btn { 
+                width: 90% !important;
+                max-width: 280px !important;
+                padding: 18px 25px !important; 
+                font-size: 1.1rem !important;
+                text-align: center !important;
+                justify-content: center !important;
+            }
+            
+            /* Mobile floating WhatsApp */
+            .floating-whatsapp { 
+                bottom: 20px !important;
+                left: 20px !important;
+                width: 60px !important;
+                height: 60px !important;
+                font-size: 1.8rem !important;
+                box-shadow: 0 8px 25px rgba(37, 211, 102, 0.6) !important;
+            }
+            
+            /* Mobile payment plan highlight */
+            div[style*="linear-gradient(45deg, #ffd700, #ffed4e)"] {
+                padding: 20px 15px !important;
+                margin: 20px 0 !important;
+                font-size: 1rem !important;
+            }
+            
+            div[style*="linear-gradient(45deg, #ffd700, #ffed4e)"] div[style*="font-size: 2.5rem"] {
+                font-size: 2rem !important;
+            }
+            
+            div[style*="linear-gradient(45deg, #ffd700, #ffed4e)"] div[style*="display: grid"] {
+                grid-template-columns: 1fr !important;
+                gap: 15px !important;
+            }
+            
+            div[style*="linear-gradient(45deg, #ffd700, #ffed4e)"] div[style*="font-size: 3rem"] {
+                font-size: 2.2rem !important;
+            }
+            
+            /* Mobile touch interactions */
+            .cta-button:active, .whatsapp-btn:active, .phone-btn:active {
+                transform: scale(0.95) !important;
+                transition: transform 0.1s ease !important;
+            }
+            
+            /* Mobile loading optimizations */
+            .particle {
+                display: none !important; /* Hide particles on mobile for better performance */
+            }
+            
+            /* Mobile font loading optimization */
+            body {
+                -webkit-font-smoothing: antialiased !important;
+                -moz-osx-font-smoothing: grayscale !important;
+                text-rendering: optimizeLegibility !important;
+            }
+            
+            /* iOS specific optimizations */
+            input, textarea, select {
+                -webkit-appearance: none !important;
+                border-radius: 0 !important;
+            }
+            
+            /* Android specific optimizations */
+            * {
+                -webkit-tap-highlight-color: rgba(255, 215, 0, 0.3) !important;
+            }
+            
+            /* Mobile scrolling optimization */
+            html {
+                -webkit-overflow-scrolling: touch !important;
+                scroll-behavior: smooth !important;
+            }
+        }
+        
+        /* 📱 Extra small mobile devices (iPhone SE, small Androids) */
+        @media (max-width: 400px) {
+            .hero-title { 
+                font-size: 1.9rem !important; 
+            }
+            
+            .hero-subtitle { 
+                font-size: 1rem !important; 
+            }
+            
+            .section-title { 
+                font-size: 1.8rem !important; 
+            }
+            
+            .cta-button { 
+                font-size: 1rem !important;
+                padding: 16px 20px !important;
+            }
+            
+            .service-card, .pricing-card, .testimonial-card { 
+                padding: 20px 15px !important; 
+            }
+            
+            .package-price { 
+                font-size: 2.2rem !important; 
+            }
+            
+            .floating-whatsapp { 
+                width: 55px !important;
+                height: 55px !important;
+                font-size: 1.6rem !important;
+            }
+        }
+        
+        /* 📱 Landscape mobile optimization */
+        @media (max-width: 768px) and (orientation: landscape) {
+            .hero { 
+                height: 100vh !important;
+                padding: 15px !important;
+            }
+            
+            .hero-title { 
+                font-size: 2rem !important; 
+            }
+            
+            .hero-subtitle { 
+                font-size: 1rem !important; 
+                margin-bottom: 20px !important;
+            }
+            
+            .hero-buttons { 
+                margin-top: 20px !important;
+            }
+        }
+        </style>
+    <link rel="manifest" href="manifest.json">
 </head>
 <body style="opacity: 0;">
     <!-- Loading Screen -->
@@ -1236,6 +1608,172 @@
             document.fonts.ready.then(function() {
                 console.log('Fonts loaded successfully');
             });
+        }
+
+        
+        // 📱 MOBILE-SPECIFIC OPTIMIZATIONS
+        
+        // Detect mobile device type
+        function detectMobile() {
+            const userAgent = navigator.userAgent.toLowerCase();
+            const isIOS = /iphone|ipad|ipod/.test(userAgent);
+            const isAndroid = /android/.test(userAgent);
+            const isMobile = /mobile|android|iphone|ipad|phone|blackberry|opera mini|iemobile/.test(userAgent);
+            
+            return {
+                isIOS: isIOS,
+                isAndroid: isAndroid,
+                isMobile: isMobile
+            };
+        }
+        
+        // Mobile-specific initialization
+        document.addEventListener('DOMContentLoaded', function() {
+            const device = detectMobile();
+            
+            if (device.isMobile) {
+                console.log('Mobile device detected - applying optimizations');
+                
+                // iOS specific optimizations
+                if (device.isIOS) {
+                    // Prevent zoom on input focus
+                    const viewport = document.querySelector('meta[name="viewport"]');
+                    viewport.setAttribute('content', 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no');
+                    
+                    // Fix iOS Safari scroll bounce
+                    document.body.style.webkitOverflowScrolling = 'touch';
+                    
+                    // Optimize for iOS status bar
+                    document.body.style.paddingTop = '0px';
+                }
+                
+                // Android specific optimizations
+                if (device.isAndroid) {
+                    // Optimize for Android browsers
+                    document.documentElement.style.webkitTapHighlightColor = 'rgba(255, 215, 0, 0.3)';
+                    
+                    // Fix Android keyboard issues
+                    window.addEventListener('resize', function() {
+                        if (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'TEXTAREA') {
+                            setTimeout(function() {
+                                document.activeElement.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                            }, 300);
+                        }
+                    });
+                }
+                
+                // Mobile touch optimizations
+                let touchStartY = 0;
+                document.addEventListener('touchstart', function(e) {
+                    touchStartY = e.touches[0].clientY;
+                }, { passive: true });
+                
+                document.addEventListener('touchmove', function(e) {
+                    const touchY = e.touches[0].clientY;
+                    const touchDiff = touchStartY - touchY;
+                    
+                    // Prevent overscroll on iOS
+                    if (device.isIOS) {
+                        const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+                        const scrollHeight = document.documentElement.scrollHeight || document.body.scrollHeight;
+                        const clientHeight = document.documentElement.clientHeight;
+                        
+                        if ((scrollTop <= 0 && touchDiff < 0) || 
+                            (scrollTop + clientHeight >= scrollHeight && touchDiff > 0)) {
+                            e.preventDefault();
+                        }
+                    }
+                }, { passive: false });
+                
+                // Optimize WhatsApp links for mobile
+                const whatsappLinks = document.querySelectorAll('a[href*="wa.me"]');
+                whatsappLinks.forEach(function(link) {
+                    link.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        const href = this.getAttribute('href');
+                        
+                        // Try to open WhatsApp app first, fallback to web
+                        if (device.isIOS) {
+                            window.location.href = href.replace('https://wa.me/', 'whatsapp://send?phone=');
+                            setTimeout(function() {
+                                window.open(href, '_blank');
+                            }, 1000);
+                        } else if (device.isAndroid) {
+                            window.location.href = href.replace('https://wa.me/', 'intent://send?phone=');
+                            setTimeout(function() {
+                                window.open(href, '_blank');
+                            }, 1000);
+                        } else {
+                            window.open(href, '_blank');
+                        }
+                    });
+                });
+                
+                // Mobile-optimized smooth scrolling
+                document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+                    anchor.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        const target = document.querySelector(this.getAttribute('href'));
+                        if (target) {
+                            const offsetTop = target.offsetTop - 80; // Account for mobile navbar
+                            window.scrollTo({
+                                top: offsetTop,
+                                behavior: 'smooth'
+                            });
+                        }
+                    });
+                });
+                
+                // Mobile performance optimization
+                window.addEventListener('scroll', function() {
+                    if (window.pageYOffset > 100) {
+                        document.querySelector('.navbar').style.transform = 'translateY(0)';
+                    }
+                }, { passive: true });
+                
+                // Mobile loading optimization
+                const images = document.querySelectorAll('.gallery-item');
+                const imageObserver = new IntersectionObserver(function(entries) {
+                    entries.forEach(function(entry) {
+                        if (entry.isIntersecting) {
+                            const item = entry.target;
+                            const bgImage = item.style.backgroundImage;
+                            if (bgImage && bgImage !== 'none') {
+                                item.style.opacity = '1';
+                                item.style.transform = 'translateY(0)';
+                            }
+                            imageObserver.unobserve(item);
+                        }
+                    });
+                });
+                
+                images.forEach(function(item) {
+                    item.style.opacity = '0.8';
+                    item.style.transform = 'translateY(20px)';
+                    item.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+                    imageObserver.observe(item);
+                });
+            }
+        });
+        
+        // Mobile orientation change handling
+        window.addEventListener('orientationchange', function() {
+            setTimeout(function() {
+                window.scrollTo(0, 1);
+            }, 500);
+        });
+        
+        // Mobile network optimization
+        if ('connection' in navigator) {
+            const connection = navigator.connection;
+            if (connection.effectiveType === 'slow-2g' || connection.effectiveType === '2g') {
+                // Reduce animations for slow connections
+                document.documentElement.style.setProperty('--animation-duration', '0.1s');
+                
+                // Hide non-essential elements
+                const particles = document.querySelector('.luxury-particles');
+                if (particles) particles.style.display = 'none';
+            }
         }
     </script>
 </body>
